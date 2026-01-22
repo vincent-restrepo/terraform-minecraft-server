@@ -1,0 +1,21 @@
+.env
+
+# IDE
+/.idea
+.idea/
+
+# Terraform
+.terraform/
+.terraform.lock.hcl
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfplan
+
+# SSH Keys
+*.pem
+*.pub
+
+# Claude
+.claude/
+claude/
